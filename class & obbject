@@ -1,0 +1,84 @@
+// // class Animal {
+
+// //     String? name;
+// //     int? numberOfLegs;
+// //     int? lifeSpan;
+
+// // void display() {
+// //     print("Animal name: $name");
+// //     print("Number of legs: $numberOfLegs");
+// //     print("Life span: $lifeSpan");
+
+// //   }
+// // }
+
+// // void main() {
+// //     // Here Animal is objects of class Animal
+// //     Animal animal = Animal();
+// //     animal.name ="Lion";
+// //     animal.numberOfLegs = 4;
+// //     animal.lifeSpan = 10;
+// //     animal.display();
+
+// // }
+
+
+// class Rectangle{
+//   //properties of rectangle
+//   double? length;
+//   double? breadth;
+  
+//   //functions of rectangle
+//   double area(){
+//     return length! * breadth!;
+//   }
+// }
+
+
+// void main(){
+//   //object of rectangle created
+//   Rectangle rectangle = Rectangle();
+  
+//   //setting properties for rectangle
+//   rectangle.length=20;
+//   rectangle.breadth=60;
+  
+//   //functions of rectangle called
+//   print("Area of rectangle is ${rectangle.area()}.");
+
+// }
+
+
+
+
+
+
+
+
+
+class Home {
+String? name; 
+String? address;
+int? numberOfRooms;
+
+
+void display() {
+  // object of Home created
+   print("Home name: $name.");
+    print("Address: $address.");
+    print("Number of room: $numberOfRooms.");
+  }
+}
+
+void main() {
+  // setting properties of Home
+  Home home = Home();
+  home.name = "THESSY";
+  home.address = "Enen Abia Street, Okon Eket, Eket";
+  home.numberOfRooms = 7;
+  home.display();
+}
+  
+
+
+
